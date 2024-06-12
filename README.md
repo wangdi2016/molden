@@ -1,4 +1,4 @@
-# molden
+# Compile Molden on macosx arm using gfortran
 
 gfortran -O3 -funroll-loops  -c -o src/molden.o src/molden.f
 src/molden.f:8751:22:
